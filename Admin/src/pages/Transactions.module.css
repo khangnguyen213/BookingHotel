@@ -1,0 +1,130 @@
+.container {
+  width: 85%;
+  float: right;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.summaries {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  padding: 24px 0;
+}
+
+.summary1,
+.summary2,
+.summary3,
+.summary4 {
+  width: 20%;
+  border: 0.6px solid rgba(86, 86, 86, 0.548);
+  box-shadow: 6px 4px 0 rgba(236, 236, 236, 0.301);
+  border-radius: 6px;
+  padding: 6px;
+}
+
+.summaries p {
+  margin: 0;
+  font-size: 12px;
+  color: rgb(131, 130, 130);
+}
+
+.summaries h1 {
+  margin: 0;
+  padding: 9px 0;
+  font-size: 21px;
+  font-weight: 400;
+  color: rgba(0, 0, 0, 0.724);
+}
+
+.summaries svg {
+  float: right;
+}
+
+.summary1 svg {
+  color: rgb(237, 95, 121);
+}
+
+.summary2 svg {
+  color: rgb(226, 183, 78);
+}
+
+.summary3 svg {
+  color: rgb(69, 162, 69);
+}
+
+.summary4 svg {
+  color: rgb(165, 74, 165);
+}
+
+.fTitle {
+  font-size: 24px;
+  font-weight: 500;
+}
+
+.table {
+  width: 90%;
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 21px;
+}
+
+.tRow {
+  display: flex;
+  flex-direction: row;
+  border-bottom: 2px solid rgb(168, 120, 177);
+  /* padding: 6px 0; */
+}
+
+.tfRow {
+  display: flex;
+  flex-direction: row;
+  border-top: 2px solid rgb(168, 120, 177);
+  /* padding: 8px 0; */
+  background-color: rgb(141, 43, 226);
+  color: white;
+}
+
+.tfRow .colId,
+.tfRow .colUser,
+.tfRow .colHotel,
+.tfRow .colDate,
+.tfRow .colRoom,
+.tfRow .colPrice,
+.tfRow .colMethod,
+.tfRow .colStatus {
+  font-size: 15px;
+}
+
+.colId,
+.colUser,
+.colHotel,
+.colDate {
+  width: 18%;
+  border-left: 2px solid rgb(168, 120, 177);
+  text-align: center;
+  font-size: 12px;
+  background-color: rgba(137, 43, 226, 0.094);
+  padding: 8px;
+}
+
+.colRoom,
+.colPrice,
+.colMethod,
+.colStatus {
+  width: 6%;
+  border-left: 2px solid rgb(168, 120, 177);
+  text-align: center;
+  font-size: 12px;
+  background-color: rgba(137, 43, 226, 0.094);
+  padding: 8px;
+}
+
+.colStatus {
+  border-right: 2px solid rgb(168, 120, 177);
+  background-color: rgba(137, 43, 226, 0.094);
+  padding: 8px;
+  vertical-align: middle;
+}

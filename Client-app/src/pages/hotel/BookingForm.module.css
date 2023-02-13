@@ -1,0 +1,125 @@
+.container {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  max-width: 1024px;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: flex-start;
+}
+
+.container label {
+  font-weight: 700;
+  font-size: 20px;
+}
+
+.container h1 {
+  font-weight: 500;
+  font-size: 16px;
+  padding: 10px 0;
+}
+
+.container input {
+  font-size: 12px;
+  padding: 8px 8px;
+}
+
+.formDates {
+  display: flex;
+  flex-direction: column;
+  width: 35%;
+}
+
+.formInfor {
+  display: flex;
+  flex-direction: column;
+  width: 60%;
+}
+
+.formRooms {
+  width: 100%;
+}
+
+.roomItems {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.roomItem {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 12px 0;
+
+  width: 45%;
+}
+
+.roomInfor {
+  display: flex;
+  flex-direction: column;
+  width: 60%;
+}
+
+.roomNumber {
+  display: flex;
+  flex-direction: row;
+  width: 35%;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+}
+
+.numberChoice {
+  text-align: center;
+  padding: 6px;
+  font-size: 16px;
+}
+
+.roomTitle {
+  font-weight: 600;
+  font-size: 16px;
+}
+
+.roomDesc {
+  font-weight: 300;
+  font-size: 14px;
+}
+
+.roomMax {
+  font-weight: 500;
+  font-size: 14px;
+}
+
+.roomPrice {
+  font-weight: 500;
+  font-size: 16px;
+}
+
+.formPayment {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.formPayment select {
+  width: fit-content;
+  font-size: 16px;
+  padding: 4px;
+  margin: 12px 0;
+}
+
+.formPayment button {
+  width: fit-content;
+  font-size: 16px;
+  padding: 8px 24px;
+  color: white;
+  background-color: rgb(24, 94, 151);
+  border: 0.5px solid rgb(33, 33, 33);
+  border-radius: 4px;
+}
+
+.formPayment button:hover {
+  cursor: pointer;
+  background-color: rgba(25, 100, 161, 0.854);
+}
